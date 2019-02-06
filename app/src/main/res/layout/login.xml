@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:background="@drawable/inspera">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_demo"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0e98f0"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assess for yourself. Book a demo."
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="8dp"
+            android:rowCount="3">
+
+            <EditText
+                android:id="@+id/editFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <EditText
+                android:id="@+id/editLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="76dp" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textPersonName"
+                tools:ignore="TextFields"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="138dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:entries="@array/array_job"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+
+            <EditText
+                android:id="@+id/editInstitution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/institution"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <EditText
+                android:id="@+id/editPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:background="#F3F3F3"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

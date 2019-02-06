@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Inspera</string>
+    <string name="learn_more">Learn More</string>
+    <string name="caption">Inclusive, fair and relevant online assessments?</string>
+    <string name="demo">Schedule a demo</string>
+    <string name="support">Support</string>
+    <string name="blog">Blog</string>
+    <string name="product">Product</string>
+    <string name="learn">learn</string>
+    <string name="about">About</string>
+    <string name="privacy">privacy</string>
+    <string name="contact">contact</string>
+    <string name="first_name">First name*</string>
+    <string name="last_name">Last name*</string>
+    <string name="email">Email*</string>
+    <string name="job_role">Job role*</string>
+    <string name="institution">Institution*</string>
+    <string name="phone_number">Phone number*</string>
+    <string name="submit">Submit</string>
+    <string name="login_demo">Schedule your one-to-one demo</string>
+</resources>
